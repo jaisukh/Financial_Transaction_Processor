@@ -106,34 +106,4 @@ cd txnflow
 
 ---
 
-## 🤝 Contributing
 
-We welcome your ideas and PRs! 🚀
-
-```bash
-# Fork + branch
-git checkout -b feature/my-feature
-
-# Commit & push changes
-git commit -m "Add feature"
-git push origin feature/my-feature
-
-# Open a pull request
-```
-
-For major changes, open an issue first to discuss your proposal.
-
----
-
-## 🙌 Support & Feedback
-
-Found this useful?  
-⭐ Star the repo or open an issue with suggestions.
-
----
-
-## 🏆 Why TxnFlow Stands Out
-
-This isn’t just another backend — it’s a **financial-grade transaction engine** built with the rigor of production systems. Whether you're simulating high-frequency trades or orchestrating real-time payments, TxnFlow is engineered to scale, secure, and succeed.
-
----
