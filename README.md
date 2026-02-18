@@ -74,17 +74,25 @@ ENTRYPOINT ["java", "-jar", "app.jar"]
 
 ## 🚀 Quick Start
 
+**Requirements:** Java 21, MySQL 8. See **[SETUP.md](SETUP.md)** for full installation and database setup.
+
 ```bash
 # 1️⃣ Clone the repo
-git clone https://github.com/Shubh00796/Financial_Transaction_Processor_SaaS.git
-cd Financial_Transaction_Processor_SaaS
+git clone <your-repo-url>
+cd <project-folder>
 
-# 2️⃣ Build the project
-mvn clean install
+# 2️⃣ Configure database
+# Edit src/main/resources/application.properties and set your MySQL username/password.
+# Create the database: CREATE DATABASE blogapplication;
 
-# 3️⃣ Run the application
-java -jar target/FinancialTransactionProcessor.jar
+# 3️⃣ Build the project
+./mvnw clean install
+
+# 4️⃣ Run the application
+./mvnw spring-boot:run
 ```
+
+**Where to access:** Open **http://localhost:8098/** in your browser — you’ll be redirected to **Swagger UI** to explore and try the REST APIs. Actuator: http://localhost:8087/actuator
 
 ---
 
